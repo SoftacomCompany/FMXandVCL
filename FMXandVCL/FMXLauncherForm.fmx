@@ -1,0 +1,35 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 344
+  ClientWidth = 644
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object btnFMX: TButton
+    Position.X = 40.000000000000000000
+    Position.Y = 40.000000000000000000
+    TabOrder = 2
+    Text = 'FMX Form'
+    OnClick = btnFMXClick
+  end
+  object btnVCL: TButton
+    Position.X = 136.000000000000000000
+    Position.Y = 40.000000000000000000
+    TabOrder = 1
+    Text = 'VCL Form'
+    OnClick = btnVCLClick
+  end
+  object btnHostVCLforFMX: TButton
+    Position.X = 240.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'VCL Host Form'
+    OnClick = btnHostVCLforFMXClick
+  end
+end

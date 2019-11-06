@@ -1,0 +1,18 @@
+program FMXandVCL;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  FMXLauncherForm in 'FMXLauncherForm.pas' {Form1},
+  VCLForm in '..\VCL\VCLForm.pas' {Form2},
+  FMXForm in 'FMXForm.pas' {frmFMX};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TfrmFMX, frmFMX);
+  Application.Run;
+end.

@@ -1,0 +1,16 @@
+program VCL;
+
+uses
+  Vcl.Forms,
+  VCLForm in 'VCLForm.pas' {frmVCL},
+  VCLHostForm in 'VCLHostForm.pas' {frmVCLHostForm};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmVCL, frmVCL);
+  Application.CreateForm(TfrmVCLHostForm, frmVCLHostForm);
+  Application.Run;
+end.

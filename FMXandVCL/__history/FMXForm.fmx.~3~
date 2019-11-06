@@ -1,0 +1,341 @@
+object frmFMX: TfrmFMX
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 585
+  ClientWidth = 689
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object TMSFNCScrollBar1: TTMSFNCScrollBar
+    Color = xFFEDEDED
+    Position.X = 424.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 18.000000000000000000
+    Size.Height = 121.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Fill.Color = xFFEDEDED
+    Stroke.Color = xFF878787
+    Appearance.ThumbFill.Color = xFFE1E1E1
+    Appearance.ScrollButtonLeftFill.Color = xFFE1E1E1
+    Appearance.ScrollButtonRightFill.Color = xFFE1E1E1
+    Appearance.ScrollButtonLeftHoverFill.Color = xFFE5F1FB
+    Appearance.ScrollButtonRightHoverFill.Color = xFFE5F1FB
+    Appearance.ScrollButtonLeftDownFill.Color = xFFDBEBF9
+    Appearance.ScrollButtonRightDownFill.Color = xFFDBEBF9
+    Appearance.ThumbButtonLeftFill.Color = xFFE1E1E1
+    Appearance.ThumbButtonRightFill.Color = xFFE1E1E1
+    Appearance.ThumbButtonLeftHoverFill.Color = xFFE5F1FB
+    Appearance.ThumbButtonRightHoverFill.Color = xFFE5F1FB
+    Appearance.ThumbButtonLeftDownFill.Color = xFFDBEBF9
+    Appearance.ThumbButtonRightDownFill.Color = xFFDBEBF9
+    Appearance.ThumbStroke.Color = xFF878787
+    Appearance.ScrollButtonLeftStroke.Color = xFF878787
+    Appearance.ScrollButtonRightStroke.Color = xFF878787
+    Appearance.ScrollButtonLeftHoverStroke.Color = xFF3C7FB1
+    Appearance.ScrollButtonRightHoverStroke.Color = xFF3C7FB1
+    Appearance.ScrollButtonLeftDownStroke.Color = xFF3C7FB1
+    Appearance.ScrollButtonRightDownStroke.Color = xFF3C7FB1
+    Appearance.ThumbButtonLeftStroke.Color = xFF878787
+    Appearance.ThumbButtonRightStroke.Color = xFF878787
+    Appearance.ThumbButtonLeftHoverStroke.Color = xFF3C7FB1
+    Appearance.ThumbButtonRightHoverStroke.Color = xFF3C7FB1
+    Appearance.ThumbButtonLeftDownStroke.Color = xFF3C7FB1
+    Appearance.ThumbButtonRightDownStroke.Color = xFF3C7FB1
+  end
+  object TMSFNCEdit1: TTMSFNCEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 32.000000000000000000
+    Position.Y = 24.000000000000000000
+    Text = ''
+    Lookup.Separator = ';'
+  end
+  object TMSFNCGrid1: TTMSFNCGrid
+    Position.X = 32.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 370.000000000000000000
+    Size.Height = 209.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Options.Editing.CalcFormat = '%g'
+    Options.Grouping.CalcFormat = '%g'
+    Options.Grouping.GroupCountFormat = '(%d)'
+    Options.IO.XMLEncoding = 'ISO-8859-1'
+    Columns = <
+      item
+        BorderWidth = 1
+        FixedFont.Name = 'Segoe UI'
+        Font.Name = 'Segoe UI'
+        ID = ''
+        Width = 68.000000000000000000
+      end
+      item
+        BorderWidth = 1
+        FixedFont.Name = 'Segoe UI'
+        Font.Name = 'Segoe UI'
+        ID = ''
+        Width = 68.000000000000000000
+      end
+      item
+        BorderWidth = 1
+        FixedFont.Name = 'Segoe UI'
+        Font.Name = 'Segoe UI'
+        ID = ''
+        Width = 68.000000000000000000
+      end
+      item
+        BorderWidth = 1
+        FixedFont.Name = 'Segoe UI'
+        Font.Name = 'Segoe UI'
+        ID = ''
+        Width = 68.000000000000000000
+      end
+      item
+        BorderWidth = 1
+        FixedFont.Name = 'Segoe UI'
+        Font.Name = 'Segoe UI'
+        ID = ''
+        Width = 68.000000000000000000
+      end>
+    TopRow = 1
+    Appearance.FixedLayout.Fill.Color = xFFE6E6E6
+    Appearance.FixedLayout.Font.Name = 'Segoe UI'
+    Appearance.FixedLayout.Font.StyleExt = {00070000000000000004000000}
+    Appearance.NormalLayout.Fill.Color = claNull
+    Appearance.NormalLayout.Font.Name = 'Segoe UI'
+    Appearance.GroupLayout.Fill.Color = xFF6E93C3
+    Appearance.GroupLayout.Font.Color = claWhite
+    Appearance.GroupLayout.Font.Name = 'Segoe UI'
+    Appearance.SummaryLayout.Fill.Color = xFFB9C5D5
+    Appearance.SummaryLayout.Font.Name = 'Segoe UI'
+    Appearance.SelectedLayout.Fill.Color = claLightsteelblue
+    Appearance.SelectedLayout.Font.Color = claWhite
+    Appearance.SelectedLayout.Font.Name = 'Segoe UI'
+    Appearance.FocusedLayout.Fill.Color = claLightsteelblue
+    Appearance.FocusedLayout.Font.Color = claWhite
+    Appearance.FocusedLayout.Font.Name = 'Segoe UI'
+    Appearance.FixedSelectedLayout.Fill.Color = claLightsteelblue
+    Appearance.FixedSelectedLayout.Font.Name = 'Segoe UI'
+    Appearance.BandLayout.Fill.Color = claLightyellow
+    Appearance.BandLayout.Font.Name = 'Segoe UI'
+    Appearance.ProgressLayout.Format = '%.0f%%'
+    LeftCol = 1
+    ScrollMode = scmItemScrolling
+  end
+  object TMSFNCListBox1: TTMSFNCListBox
+    Position.X = 456.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 220.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    ItemsAppearance.Font.Name = 'Segoe UI'
+    ItemsAppearance.Fill.Color = claNull
+    ItemsAppearance.Stroke.Kind = gskNone
+    ItemsAppearance.Stroke.Color = claDarkgray
+    ItemsAppearance.SelectedFill.Color = xFF1BADF8
+    ItemsAppearance.SelectedStroke.Color = xFF1BADF8
+    ItemsAppearance.DisabledFill.Color = claDarkgray
+    ItemsAppearance.DisabledStroke.Kind = gskNone
+    ItemsAppearance.DisabledStroke.Color = claDarkgray
+    ItemsAppearance.FixedHeight = 25.000000000000000000
+    Items = <
+      item
+        Text = 'Mercedes'
+      end
+      item
+        Text = 'Audi'
+      end
+      item
+        Text = 'BMW'
+      end
+      item
+        Text = 'Land Rover'
+      end
+      item
+        Text = 'Bugatti'
+      end>
+    Header.Text = 'Header'
+    Header.Font.Name = 'Segoe UI'
+    Header.Stroke.Color = claDarkgray
+    Header.Size = 25.000000000000000000
+    Header.SortIndicatorColor = claSteelblue
+  end
+  object TMSFNCKanbanBoard1: TTMSFNCKanbanBoard
+    Position.X = 32.000000000000000000
+    Position.Y = 288.000000000000000000
+    Size.Width = 633.000000000000000000
+    Size.Height = 274.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Columns = <
+      item
+        Name = 'Header0'
+        HeaderText = 'To Do'
+        FooterText = 'Footer 0'
+        Width = 250.000000000000000000
+        Stroke.Color = claDarkgray
+        HeaderFill.Kind = gfkNone
+        HeaderStroke.Color = claDarkgray
+        HeaderFont.Name = 'Segoe UI'
+        FooterFill.Kind = gfkNone
+        FooterStroke.Color = claDarkgray
+        FooterFont.Name = 'Segoe UI'
+        Items = <
+          item
+            Text = 'Build Feature A'
+            VerticalTextAlign = gtaCenter
+            SelectedTextColor = claBlack
+            Color = claNull
+            MarkType = [kbmtLeft]
+            MarkColor = xFFE3C932
+            TitleVerticalTextAlign = gtaCenter
+            SelectedTitleColor = claBlack
+          end
+          item
+            Text = 'Test Feature A'
+            VerticalTextAlign = gtaCenter
+            SelectedTextColor = claBlack
+            UseDefaultAppearance = False
+            Color = xFFE3C932
+            MarkType = [kbmtLeft]
+            TitleVerticalTextAlign = gtaCenter
+            SelectedTitleColor = claBlack
+          end
+          item
+            Text = 'Test Feature B'
+            VerticalTextAlign = gtaCenter
+            SelectedTextColor = claBlack
+            Color = claNull
+            MarkType = [kbmtLeft]
+            MarkColor = xFF9CC345
+            TitleVerticalTextAlign = gtaCenter
+            SelectedTitleColor = claBlack
+          end
+          item
+            Text = 'Deploy Feature A on server'
+            Title = 'Deploy'
+            Expandable = True
+            VerticalTextAlign = gtaCenter
+            SelectedTextColor = claBlack
+            Color = claNull
+            MarkType = [kbmtTop]
+            TitleVerticalTextAlign = gtaCenter
+            SelectedTitleColor = claBlack
+          end>
+        Expandable = True
+        Filter = <>
+      end
+      item
+        Name = 'Header1'
+        HeaderText = 'Doing'
+        FooterText = 'Footer 1'
+        Width = 250.000000000000000000
+        Stroke.Color = claDarkgray
+        HeaderFill.Kind = gfkNone
+        HeaderStroke.Color = claDarkgray
+        HeaderFont.Name = 'Segoe UI'
+        FooterFill.Kind = gfkNone
+        FooterStroke.Color = claDarkgray
+        FooterFont.Name = 'Segoe UI'
+        Items = <
+          item
+            Text = 'Build the demo application for testing purposes'
+            Title = 'Build'
+            Expandable = True
+            VerticalTextAlign = gtaCenter
+            SelectedTextColor = claBlack
+            UseDefaultAppearance = False
+            Color = xFF6DC9DF
+            TitleVerticalTextAlign = gtaCenter
+            TitleColor = claWhite
+            SelectedTitleColor = claBlack
+          end
+          item
+            Text = 'Test the <font color="gcRed">demo</font> application'
+            VerticalTextAlign = gtaCenter
+            SelectedTextColor = claBlack
+            Color = claNull
+            TitleVerticalTextAlign = gtaCenter
+            SelectedTitleColor = claBlack
+          end>
+        Expandable = True
+        Filter = <>
+      end
+      item
+        Name = 'Header2'
+        HeaderText = 'Done'
+        FooterText = 'Footer 2'
+        Width = 250.000000000000000000
+        Stroke.Color = claDarkgray
+        HeaderFill.Kind = gfkNone
+        HeaderStroke.Color = claDarkgray
+        HeaderFont.Name = 'Segoe UI'
+        FooterFill.Kind = gfkNone
+        FooterStroke.Color = claDarkgray
+        FooterFont.Name = 'Segoe UI'
+        Items = <
+          item
+            Text = 'Create landing page'
+            VerticalTextAlign = gtaCenter
+            SelectedTextColor = claBlack
+            Color = claNull
+            TitleVerticalTextAlign = gtaCenter
+            SelectedTitleColor = claBlack
+          end
+          item
+            Text = 'Mailing'
+            VerticalTextAlign = gtaCenter
+            SelectedTextColor = claBlack
+            Color = claNull
+            TitleVerticalTextAlign = gtaCenter
+            SelectedTitleColor = claBlack
+          end
+          item
+            Text = 
+              'Create setup for distribution<br/><br/><ul><li>Innosetup</li><li' +
+              '>Files</li><li>Resources</li></ul>'
+            Title = 'Setup'
+            Expandable = True
+            VerticalTextAlign = gtaCenter
+            SelectedTextColor = claBlack
+            UseDefaultAppearance = False
+            Color = xFF9CC345
+            TitleVerticalTextAlign = gtaCenter
+            SelectedTitleColor = claBlack
+          end>
+        Expandable = True
+        Filter = <>
+      end>
+    ColumnsAppearance.Margins.Left = 10.000000000000000000
+    ColumnsAppearance.Margins.Top = 10.000000000000000000
+    ColumnsAppearance.Margins.Right = 10.000000000000000000
+    ColumnsAppearance.Margins.Bottom = 10.000000000000000000
+    ColumnsAppearance.HeaderFont.Size = 20.000000000000000000
+    ColumnsAppearance.HeaderFont.Name = 'Segoe UI'
+    ColumnsAppearance.FooterFont.Name = 'Segoe UI'
+    ColumnsAppearance.HeaderStroke.Color = claDarkgray
+    ColumnsAppearance.FooterStroke.Color = claDarkgray
+    ColumnsAppearance.Stroke.Color = claDarkgray
+    Interaction.AutoOpenURL = False
+    Interaction.DragDropMode = kbdmMove
+    ItemsAppearance.Font.Name = 'Segoe UI'
+    ItemsAppearance.TitleFont.Size = 16.000000000000000000
+    ItemsAppearance.TitleFont.Name = 'Segoe UI'
+    ItemsAppearance.Margins.Left = 10.000000000000000000
+    ItemsAppearance.Margins.Top = 10.000000000000000000
+    ItemsAppearance.Margins.Right = 10.000000000000000000
+    ItemsAppearance.Margins.Bottom = 10.000000000000000000
+    ItemsAppearance.Fill.Color = claWhitesmoke
+    ItemsAppearance.Stroke.Color = claDarkgray
+    ItemsAppearance.SelectedFill.Color = xFF1BADF8
+    ItemsAppearance.SelectedStroke.Color = xFF1BADF8
+    ItemsAppearance.DisabledFill.Color = claDarkgray
+    ItemsAppearance.DisabledStroke.Kind = gskNone
+    ItemsAppearance.DisabledStroke.Color = claDarkgray
+    ItemsAppearance.FixedHeight = 25.000000000000000000
+  end
+end
